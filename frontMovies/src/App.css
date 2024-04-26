@@ -1,0 +1,17 @@
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie {
+  width: calc(25% - 10px); /* Ajusta el ancho de cada película */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.movie img {
+  height: 500px; /* Establece una altura fija para las imágenes */
+  width: auto; /* Deja que el ancho se ajuste automáticamente */
+  object-fit: cover; /* Escalar las imágenes manteniendo la proporción y recortando si es necesario */
+}
